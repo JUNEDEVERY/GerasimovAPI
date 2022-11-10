@@ -13,7 +13,7 @@ namespace GerasimovAPI.Models
 
             id = nameofproduct.id;
             name = nameofproduct.name;
-            price = (double)nameofproduct.price;
+            price = (float)nameofproduct.price;
             weight = nameofproduct.weight;
             nameProiz = nameofproduct.nameProiz;
             countryProiz = nameofproduct.countryProiz;
@@ -22,7 +22,7 @@ namespace GerasimovAPI.Models
         }
         public int id { get; set; }
         public string name { get; set; }
-        public double price { get; set; }
+        public float price { get; set; }
         public string weight { get; set; }
         public string nameProiz { get; set; }
         public string countryProiz { get; set; }
